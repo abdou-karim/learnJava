@@ -1,10 +1,13 @@
 package firstCours;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-   double nbr1=10,nbr2=3;
-   double resultat=  (nbr1/nbr2);
-   System.out.println(resultat);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Veuillez saisir un mot: ");
+        String str = sc.nextLine();
+        System.out.println("Vous avez saisis " + str);
     }
 }
